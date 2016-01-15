@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: bankGothic;
+    src: url("BankGothicLight.ttf") format("truetype");
+    
+}
+
+@media only screen and (max-width: 667px) {
+    body {
+        background-color: black;
+    }
+}
+
+.logo-container {
+    width: 750px;
+    height: 700px;
+    margin: 0 auto;   
+}
+
+.logo {
+    
+    width: 750px;
+    height: 600px;
+    margin: 0 auto;
+    
+}
+
+.logo-text {
+    
+    color: white;
+    text-align: center;
+    font-family: bankGothic;
+    font-size: 15px;
+        
+}
+
+.logo-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-text a:hover {
+    color: gray;
+}
+
